@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Deadline Dashboard</string>
+    <string name="glance_widget_description">Displays the next two upcoming deadlines.</string>
+</resources>

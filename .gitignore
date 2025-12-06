@@ -1,0 +1,27 @@
+# IDE files
+.idea/
+.gradle/
+build/
+*.iml
+local.properties
+
+# Keystore files
+*.jks
+*.keystore
+
+# Reports
+**/reports/
+**/test-results/
+
+# Captures
+.cxx/
+*.hprof
+*.ap_
+
+# Google services
+app/google-services.json
+
+# Misc
+.DS_Store
+captures/
+.externalNativeBuild/
