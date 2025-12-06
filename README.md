@@ -19,3 +19,37 @@ This is an Android application designed to help students manage their assignment
 *   **ViewModel:** A component of the Android Architecture Components to manage UI-related data.
 *   **Navigation Component:** To handle in-app navigation.
 *   **Coroutines:** For managing background threads and asynchronous operations.
+
+## Permissions
+
+This app requires the following permissions to function correctly:
+
+*   `POST_NOTIFICATIONS`: To display reminder notifications for your assignments.
+*   `SCHEDULE_EXACT_ALARM`: To schedule and deliver these reminders at the correct time.
+
+## Libraries Used
+
+This project utilizes a variety of libraries to provide a robust and modern user experience. Key libraries include:
+
+*   **AndroidX Libraries:**
+    *   `core-ktx`: Core Kotlin extensions.
+    *   `appcompat`: Provides backward-compatible versions of Android UI components.
+    *   `lifecycle-runtime-ktx`: Manages app lifecycle and processes.
+    *   `activity-compose`: For integrating Jetpack Compose with Android Activities.
+    *   `datastore-preferences`: For simple, asynchronous key-value storage.
+    *   `room`: For robust, local database storage.
+    *   `glance-appwidget`: For creating modern home screen widgets.
+
+*   **Jetpack Compose:**
+    *   `compose-bom`: Bill of Materials to manage Compose library versions.
+    *   `ui`, `ui-graphics`, `ui-tooling-preview`: Foundational UI components.
+    *   `material3`, `material-icons-extended`: Implements Material Design 3.
+    *   `navigation-compose`: For navigating between screens.
+    *   `lifecycle-viewmodel-compose`: For integrating ViewModels with Compose.
+    *   `runtime-livedata`: For observing `LiveData` objects in Compose.
+
+*   **Other Libraries:**
+    *   `MPAndroidChart`: For creating beautiful and informative charts.
+    *   `kotlinx-coroutines`: For managing concurrency and asynchronous code.
+
+This list provides an overview of the core dependencies but is not exhaustive.
