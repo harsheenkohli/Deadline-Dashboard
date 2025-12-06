@@ -53,3 +53,24 @@ This project utilizes a variety of libraries to provide a robust and modern user
     *   `kotlinx-coroutines`: For managing concurrency and asynchronous code.
 
 This list provides an overview of the core dependencies but is not exhaustive.
+
+## How to Build an APK
+
+You can build an APK of the project using either Android Studio or the command line.
+
+### Using Android Studio
+
+1.  Go to **Build** -> **Build Bundle(s) / APK(s)** -> **Build APK(s)**.
+2.  Android Studio will build the project, and a notification will appear when the build is complete.
+3.  Click the **locate** link in the notification to find the generated APK file.
+
+### Using the Command Line
+
+1.  Open a terminal in the root directory of the project.
+2.  Run the following command to build a debug APK:
+
+    ```
+    ./gradlew app:assembleDebug
+    ```
+
+3.  The generated APK will be located in `app/build/outputs/apk/debug/`.
